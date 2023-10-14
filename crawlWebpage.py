@@ -31,7 +31,7 @@ def crawl_page(url):
         print(f"An error occurred: {str(e)}")
 
 # Starting URL for the crawler
-start_url = 'https://example.com'
+start_url = 'https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3LmZyLmRlL3BvbGl0aWsvdWtyYWluZS1rcmllZy1iYWNobXV0LWtyaW0tZ2VmZWNodGUtZ2VnZW5vZmZlbnNpdmUtcnVzc2xhbmQtbW9za2F1LWtpZXctbmV3cy10aWNrZXItenItOTI1NTQwMTMuaHRtbNIBAA?oc=5' #'https://example.com'
 
 # Call the crawl_page function with the starting URL
 crawl_page(start_url)
